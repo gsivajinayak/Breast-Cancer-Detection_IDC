@@ -21,8 +21,8 @@ The model is trained **from scratch (no fine-tuning)** on an **imbalanced binary
 
 | Class | Meaning | Count | Ratio |
 |--------|----------|--------|--------|
-| **Class 0** | Normal (non-IDC) | ~170k | 85% |
-| **Class 1** | IDC-positive (malignant) | ~30k | 15% |
+| **Class 0** | Normal (non-IDC) | ~198k | 75% |
+| **Class 1** | IDC-positive (malignant) | ~78k | 25% |
 
 **Imbalance Handling:**
 - On-the-fly geometric augmentation (Flip, Rotate, Zoom)
@@ -85,7 +85,7 @@ Applied once and saved under `/content/final_preprocessed`.
 | **Precision (IDC)** | 0.72 |
 | **Recall (IDC)** | **0.84** |
 | **F1-score (IDC)** | 0.77 |
-| **ROC-AUC** | 0.90 |
+| **ROC-AUC** | ,0.91 |
 
 ### Confusion Matrix
 <img width="620" height="436" alt="image" src="https://github.com/user-attachments/assets/6496d8a7-8823-4b69-a32c-af436f9c793b" />
